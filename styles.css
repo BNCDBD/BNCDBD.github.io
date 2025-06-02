@@ -14,11 +14,17 @@
 }
 
 /*底部按钮*/
+.Ddiv {
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: flex-end; /* 垂直对齐到容器的底部 */
+  height: 100vh; /* 容器高度为视口高度，确保按钮固定在底部 */
+  position: relative; /* 相对于此容器定位 */
+}
 .Dbutton {
-    position: fixed;
+    position: absolute;
+    bottom: 20px;
     display: inline-block; /* 使按钮宽度适应内容 */
-    bottom: 20px;/* 底部距离 */
-    right: 685px;/* 右边距离 */
     padding: 8px 12px; /* 内边距 */
     width: 150px;/* 宽度 */
     background-color: #325aa6; /* 背景颜色 */
