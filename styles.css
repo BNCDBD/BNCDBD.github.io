@@ -45,7 +45,6 @@
   text-decoration: none; 
   border: none;
   border-radius: 5px;
-  cursor: pointer;
   animation: changeColor 3s infinite; /* 应用动画 */
 }
 @keyframes changeColor {
