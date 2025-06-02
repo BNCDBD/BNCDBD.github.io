@@ -1,0 +1,40 @@
+/*普通按钮*/
+.button {
+    display: inline-block; /* 使按钮宽度适应内容 */
+    padding: 8px 12px; /* 内边距 */
+    width: 150px;/* 宽度 */
+    background-color: #20b4b2; /* 背景颜色 */
+    color: white; /* 文字颜色 */
+    text-decoration: none; /* 去除下划线 */
+    border-radius: 5px; /* 圆角 */
+    transition: background-color 0.3s ease; /* 平滑过渡效果 */
+}
+.button:hover {
+    background-color: #0056b3; /* 鼠标悬停时的背景颜色 */
+}
+
+/*底部按钮*/
+.Dbutton {
+    position: fixed;
+    display: inline-block; /* 使按钮宽度适应内容 */
+    bottom: 20px;/* 底部距离 */
+    right: 685px;/* 右边距离 */
+    padding: 8px 12px; /* 内边距 */
+    width: 150px;/* 宽度 */
+    background-color: #325aa6; /* 背景颜色 */
+    color: white; /* 文字颜色 */
+    text-decoration: none; /* 去除下划线 */
+    border-radius: 5px; /* 圆角 */
+    transition: background-color 0.3s ease; /* 平滑过渡效果 */
+}
+.Dbutton:hover {
+    background-color: #0056b3; /* 鼠标悬停时的背景颜色 */
+}
+
+/*body*/
+body{
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #1a1a1a;
+  color: white;
+}
