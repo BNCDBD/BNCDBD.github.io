@@ -37,6 +37,30 @@
     background-color: #0056b3; /* 鼠标悬停时的背景颜色 */
 }
 
+/*彩虹按钮*/
+.colorful-button {
+  background-color: #FF0000; /* 初始颜色 */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  animation: changeColor 5s infinite; /* 应用动画 */
+}
+@keyframes changeColor {
+  0% { background-color: #FF0000; } /* 开始颜色 */
+  10% { background-color: #ffa400; } 
+  20% { background-color: #fbff00; } 
+  30% { background-color: #93ff00; } 
+  40% { background-color: #11ff00; } 
+  50% { background-color: #00ff7d; } 
+  60% { background-color: #00ffe9; } 
+  70% { background-color: #00baff; } 
+  80% { background-color: #4500ff; } 
+  90% { background-color: #a000ff; } 
+  100% { background-color: #f200ff; } 
+}
+
 /*body*/
 body{
   margin: 0;
