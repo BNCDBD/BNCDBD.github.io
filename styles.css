@@ -21,6 +21,16 @@
   height: 100vh; /* 容器高度为视口高度，确保按钮固定在底部 */
   position: relative; /* 相对于此容器定位 */
 }
+.mdiv{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.maindiv{
+  width: 1000px;
+  height: 1200px;
+  background-color: #2f2f4f;
+}
 .Dbutton {
     position: absolute;
     bottom: 20px;
