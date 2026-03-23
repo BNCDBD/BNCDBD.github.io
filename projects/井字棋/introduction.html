@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BNCDBD的井字棋</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <center><h1>BNCDBD的井字棋game介绍</h1></center>
+    <div class='mdiv'>
+    <div class='maindiv'>
+
+      <h2>一、棋盘</h2>
+      <img src='https://cdn.luogu.com.cn/upload/image_hosting/tdbg1o6b.png' alt='井字棋棋盘'>
+      <h2>二、game流程</h2>
+      <p>对于每个回合：</p>
+      1. 每人摸 1 张牌、加 1 能量
+      2. X 行动<br>
+            3. O 行动<br>
+            4. 回合结算（效果生效等）
+            <p></p>
+      <p>每次行动分为以下步骤：</p>
+            1. 考虑是否下棋（"X"或"O"）
+            2. 考虑用牌
+            3. 考虑功能型单位的攻击/使用技能
+            <h2>三、胜利条件</h2>
+            当<strong>任意时刻</strong>满足三子一线（功能型棋子不算）时，判胜，对方判负。<br>
+            或在某个时刻对方没有棋子可下以及投降时，判胜，对方判负。<br>
+      如果双方同时没有棋子，判平局。
+            <h2>四、修 bug 专区</h2>
+      1. 当双方<strong>所有</strong>棋子数均小于 3 时，有棋不下就会自动判负！<br>
+
+    </div>
+    </div>
+
+    <div class="Ddiv">
+      <a href="https://bncdbd.github.io/index.html" class="Dbutton"><center><<< 主页 >>></center></a>
+    </div>
+  </body>
+</html>
