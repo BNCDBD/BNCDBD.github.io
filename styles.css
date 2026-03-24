@@ -34,6 +34,21 @@
 }
 .Dbutton {
   position: absolute;
+  right: 55vw;
+  bottom: 20px;
+  display: inline-block; /* 使按钮宽度适应内容 */
+  padding: 8px 12px; /* 内边距 */
+  width: 150px;/* 宽度 */
+  background-color: #325aa6; /* 背景颜色 */
+  color: white; /* 文字颜色 */
+  text-decoration: none; /* 去除下划线 */
+  border-radius: 5px; /* 圆角 */
+  transition: background-color 0.3s ease; /* 平滑过渡效果 */
+  z-index: 1000;
+}
+.Dbutton2 {
+  position: absolute;
+  right: 35vw;
   bottom: 20px;
   display: inline-block; /* 使按钮宽度适应内容 */
   padding: 8px 12px; /* 内边距 */
